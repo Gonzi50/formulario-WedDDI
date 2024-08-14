@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body onload=" consultarfoto(),RellenarPedido()">
+    <nav>
+        <span class="logo" onclick="restart()">
+
+        </span>
+        <span class="buscador">
+            <span class="lupa"></span>
+            <input type="text" class="texbusq" onclick="buscar()" value="Buscar en tu cuenta de WEB DDI">
+        </span>
+        <span class="empresadesc">
+            <span class="txdescem"> 
+                
+            </span>
+            
+        </span>
+        <span class="consulta" onclick="lupa()">
+        </span>
+        <span class="imagenusuario" >
+
+        </span>
+    </nav>
+    <aside class="lateral">
+        <div class="linealateral" > 
+            <div class="logouser" ></div> 
+            <span class="txlat" style="top:25px;color: #ffffff80;">
+                Pagína Principal
+            </span> 
+        </div>
+        <div class="linealateral"  >
+            <div class="logocaja"></div> 
+            <span class="txlat" style="top:105px;color: #ffffff80;">
+                Informacion Pedido
+            </span>
+        </div>
+        <div class="linealateral" style="
+        background-color: #61616180;    
+        border-radius: 10%;
+        cursor: pointer;">
+            <div class="logocorreo"></div>
+            <span class="txlat" style="top:182px;color: #ffffff;">
+                Realizar un Pedido
+            </span>
+        </div>
+    </aside>
+    <div class="contenedorpedido"> 
+        <div class="pedido">
+          <div class="titulo tl3">Pedido de </div>
+
+          <div class="descpe psdes1">
+        </div>
+        
+        <div class="boton enviar" onclick="modificarp()" style="left: 150px;">
+            Modificar pedido
+        </div>
+        
+        <div class="boton enviar" onclick="enviar()" style="left: 550px;">
+            Enviar pedido 
+        </div>
+        </div>
+    </div>
+    <div class="nublar"></div>
+    <div class="confirm">
+        <span class="equis" onclick="cancelar()">
+            <span class="linea" style="top: 21px; transform: rotate(45deg); left: 4px;"></span>
+            <span class="linea" style="top: 21px; transform: rotate(-45deg); left:4px;"></span> 
+        </span>
+        <span class="conftx">
+            Porfavor coloque su contraseña para enviar el pedido
+        </span> 
+        <input type="password" class="formcnmod">
+        <div onclick="confirmar()" class="boton subb5"  >
+            Enviar pedido 
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

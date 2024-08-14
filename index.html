@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inika:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body onload="test(),consultarfoto()">
+    <nav>
+        <span class="logo" onclick="resetmem()">
+
+        </span>
+        <span class="buscador">
+            <span class="lupa"></span>
+            <input type="text" class="texbusq" onclick="buscar()" value="Buscar en tu cuenta de WEB DDI">
+        </span><span class="empresadesc">
+            <span class="txdescem"> 
+                
+            </span>
+            
+        </span>
+        <span class="consulta" onclick="lupa()">
+        </span>
+        <span class="imagenusuario" >
+
+        </span>
+    </nav>
+    <aside class="lateral">
+        <div class="linealateral" style="
+        background-color: #61616180;    
+        border-radius: 10%;
+        cursor: pointer;"> 
+            <div class="logouser" ></div> 
+            <span class="txlat" style="top:25px;">
+                Pagína Principal
+            </span> 
+        </div>
+        <div class="linealateral">
+            <div class="logocaja"></div>
+            <span class="txlat" style="top:105px;color: #ffffff80;">
+                Informacion Pedido
+            </span>
+        </div>
+        <div class="linealateral">
+            <div class="logocorreo"></div>
+            <span class="txlat" style="top:182px;color: #ffffff80;">
+                Realizar un Pedido
+            </span>
+        </div>
+    </aside>
+
+    <span class="imagencentral">
+    </span>
+    <div class="titulo tl1">
+        Bienvenido
+    </div>
+        
+    
+    <div class="subtitulo">
+        ¿Cómo te llamas?
+    </div>
+    <form action="">
+        <input type="text" class="leernom">
+    </form>
+    <form action=""></form>
+        <input type="file" name="" id="subirfoto" class="">
+        <span class="boton subb1">
+            <label style="cursor: pointer;" for="subirfoto">Seleccionar imagen</label> 
+        </span>
+    </form>
+    <div class="boton subb2" onclick="guardardatos()">Guardar</div>
+    <script src="script.js"></script>
+</body>
+</html>

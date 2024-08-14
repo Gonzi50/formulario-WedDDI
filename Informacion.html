@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body onload="test() ,consultarfoto(),nombrepedido()">
+    <nav>
+        <span class="logo" onclick="restart()">
+
+        </span>
+        <span class="buscador">
+            <span class="lupa"></span>
+            <input type="text" class="texbusq" onclick="buscar()" value="Buscar en tu cuenta de WEB DDI">
+        </span><span class="empresadesc">
+            <span class="txdescem"> 
+                
+            </span>
+            
+        </span>
+        <span class="consulta" onclick="lupa()">
+        </span>
+        <span class="imagenusuario" >
+
+        </span>
+    </nav>
+    <aside class="lateral">
+        <div class="linealateral" > 
+            <div class="logouser" ></div> 
+            <span class="txlat" style="top:25px;color: #ffffff80;">
+                Pagína Principal
+            </span> 
+        </div>
+        <div class="linealateral" style="
+        background-color: #61616180;    
+        border-radius: 10%;
+        cursor: pointer;" >
+            <div class="logocaja"></div> 
+            <span class="txlat" style="top:105px;color: #ffffff;">
+                Informacion Pedido
+            </span>
+        </div>
+        <div class="linealateral">
+            <div class="logocorreo"></div>
+            <span class="txlat" style="top:182px;color: #ffffff80;">
+                Realizar un Pedido
+            </span>
+        </div>
+    </aside>
+
+    <div class="titulo tl2" id="pedidode" >
+        Información del pedido de
+    </div> 
+    <input type="password" name="contraseña" id="cnt" class="formcn">       
+    <label for="cnt">
+        <span class="boton subb3" onclick="contraseña()" > 
+            Elegir Contraseña
+        </span>
+    </label> 
+    
+    <span class="testo" style="top: 420px;">¿Para que quieres una pagina Web?</span>
+    <form class="check" action="">
+        <div class="">
+            <input type="checkbox" name="" value="Vender online" id="chk1">
+            <span class="checot"> 
+                Para vender online
+            </span> 
+        </div>
+        <div class="">
+            <input type="checkbox" name="" value="Publicar contenido" id="chk2">
+            <span class="checot"> 
+                Para publicar contenido 
+            </span> 
+        </div>
+        <div class="">
+            <input type="checkbox" name="" value="Publicitar un servicio" id="chk3">
+            <span class="checot"> 
+                Para publicitar un servicio   
+            </span> 
+        </div>
+        <div class="">
+            <input type="checkbox" name="" value="Otro uso" id="chk4">
+            <span class="checot"> 
+                Otro uso 
+            </span> 
+        </div>
+    </form>
+     
+    <span class="testo" style="top: 580px">¿Tu pagina Web necesitara una base de datos?</span>
+    <form action="" class="select"> 
+        <select name="Opciones" id="bsdato">  
+            <option value="posiblemente">No sabe</option>
+            <option value="">Si</option>
+            <option value="no">No</option> 
+        </select>
+    </form>
+
+
+    <span class="testo" style="top: 710px">¿En que dispositivos se debe ver la pagina?</span>
+    <select name="disp" class="dispo" size=3 multiple>    
+        <option id="dispo1" value="Computadoras"> Computadora </option>
+        <option id="dispo2" value="Telefonos"> Telefono</option>
+        <option id="dispo3" value="Tablets">Tablet</option>
+    </select>
+    <span class="testo" style="top: 860px">Añade una descripción detallada del proyecto</span>
+    <textarea name="area" class="desc testodes" rows="5" cols="25"> </textarea> 
+    
+    <span class="testo" style="top: 1080px">¿Qué tal te parece el diseño de esta Web?</span>
+    <label for="op1" class="star" id="st1" style="left: 600px;"></label>
+    <label for="op2" class="star" id="st2" style="left: 650px;"></label>
+    <label for="op3" class="star" id="st3" style="left: 700px;"></label>
+    <label for="op4" class="star" id="st4" style="left: 750px;"></label>
+    <label for="op5" class="star" id="st5" style="left: 800px;"></label>  
+
+    <form method=post action="" name="opt">
+        <input type="radio" onclick="mestrella(1)" name="sas" value="1"  id="op1">   
+        <input type="radio" onclick="mestrella(2)" name="sas" value="2"   id="op2">   
+        <input type="radio" onclick="mestrella(3)" name="sas" value="3"   id="op3">  
+        <input type="radio" onclick="mestrella(4)" name="sas" value="4"  id="op4">     
+        <input type="radio" onclick="mestrella(5)" name="sas" value="5"  id="op5">     
+    </form>
+
+
+    <div style="color: black;">  
+        <span onclick="guardenTodoQueVolamos()" class="boton subb4">    
+            Realizar pedido  
+        </span>    
+    </div>
+    <span style="position: absolute; top:1500px; color: #4C7766;"> </span>     
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,502 @@
+body{
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #FBF0F4;
+}
+/* Lateral */
+.lateral{
+    
+    background-color: #4C7766;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 300px;
+    height: 700px; 
+}
+.linealateral{
+    color: white;
+    width: 300px;
+    height: 80px;
+    font-size: 22px; 
+    cursor: default;
+}
+
+.logouser{ 
+    background-image: url(img/personlogopersona.png);
+    width: 50px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.logocaja{
+    background-image: url(img/logocaja.png);
+    width: 50px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 90px;
+}
+
+.logocorreo{
+    background-image: url(img/locomail.png);
+    width: 50px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 170px; 
+}
+.txlat{
+    position: absolute;
+    left: 70px;
+}
+
+
+/*nav*/
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #4C7766;
+}
+.logo{
+    background-image: url(img/webddi.png);
+    width: 100px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+.buscador{
+    width: 400px;
+    height: 50px;
+    background-color: #FBF0F4;
+    position: absolute;
+    top:25px;
+    left: 300px;
+    border-radius: 10px;
+}
+.lupa{
+    background-image: url(img/lupa.png);
+    width: 35px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px; 
+    position: absolute;
+    left: 7.5px;
+    top: 7px;
+}
+.texbusq{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    background-color: #FBF0F4;
+    border: 0px;
+    color: #777777;
+    font-size: 16px;
+    width: 340px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.texbusq:focus{
+
+    border: none; 
+    outline: none;
+    
+}
+.consulta{
+    background-image: url(img/helplogo.png);
+    width: 50px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px; 
+    position: absolute;
+    left: 1265px;
+    top: 25px; 
+}
+.imagenusuario{
+    background-color: #D9D9D9;
+    width: 50px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px; 
+    position: absolute;
+    left: 1365px;
+    top: 25px; 
+    border-radius: 50px;
+    background-image: none;
+}
+
+.boton{
+    font-family: "Inika", serif;
+    background-color: #ED8F45;
+    border: 1px solid black;
+    box-shadow: 3px 3px 4px 5px #00000080;
+    border-radius: 10px;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    transition: all .2s;
+    user-select: none;
+    cursor: pointer;
+}
+.subb1{
+    width: 220px;
+    height: 40px;
+    top:220px;
+    left: 1050px;
+    font-size: 22px;
+}
+.subb2{
+    width: 350px;
+    height: 80px;
+    top: 600px; 
+    left: 725px;
+    font-size: 32px;
+}
+.subb3{
+    width: 300px;
+    height: 40px;
+    top: 260px;
+    left: 705px;
+    font-size: 22px;
+}
+
+.formcn{
+    transition: all .3s;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    top: 260px;/*310*/
+    left: 705px;
+    font-size: 22px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    border-radius: 20px;
+    border: none;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.formcn:focus{
+    outline: none;
+}
+.boton:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.boton:hover:active{
+    transform: scale(0.98);
+    cursor: pointer;
+    
+}
+.ocultar{
+    background-color: none;
+}
+.imagencentral{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 790px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo{
+    position: absolute;
+    font-size: 46px;
+    font-family: "Inika", serif;
+    font-weight: 800;
+    width: calc(100% - 300px);
+    text-align: center; 
+}
+.tl1{
+    top: 370px;
+    left: 300px;
+}
+.tl2{
+    top: 150px;
+    left: 300px;
+}
+.subtitulo{
+    position: absolute;
+    top: 430px;
+    left: 300px;
+    width: calc(100% - 300px);;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+}
+.leernom{
+    position: absolute;
+    top: 480px;
+    left: 750px;
+    font-size: 32px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.testo{
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: left;
+    position: absolute;
+    left: 340px;
+    width: 210px;
+}
+.check{
+    
+    position: absolute;
+    top:370px;
+    left: 570px;
+    width: 320px;
+    height: 150px;
+}
+.checot{
+    height: 35px;
+    margin-left: 10px ;
+    align-content: center;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-size: 22px;
+    position: absolute; 
+    width: 300px;
+}
+input[type=checkbox]{
+    width: 30px;
+    height: 30px; 
+    border: #777777;
+}
+.select{
+    position: absolute;
+    top:580px;
+    left: 570px; 
+    width: 320px;
+    height: 150px;
+}
+select{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.dispo{
+    position: absolute;
+    top: 690px;
+    left: 570px; 
+    width: 320px;
+    height: 100px;
+}
+.desc{
+    position: absolute;
+    top: 830px;
+    left: 570px; 
+    width: 320px;
+    height: 150px;
+}
+.testodes{
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: left;
+}
+.subb4{ 
+    width: 300px;
+    height: 80px;
+    top: 1280px;
+    left: 720px;
+    font-size: 32px;
+}
+input[type=radio]{
+    position: absolute;
+    margin: 10px;
+    top: 1080px;  
+    width: 0px;
+}
+
+.star{
+    width: 50px;     
+    height: 50px;
+    position: absolute;
+    background-image: url(img/negstar.png);
+    top: 1080px;
+    border-radius: 50px;
+    filter: none;
+    cursor: pointer;
+    /*drop-shadow(1px 1px 2px #EFB81080);*/
+}
+.star:hover{
+    transform: scale(1.1);
+}
+.contenedorpedido{
+    position: absolute;
+    left: 300px;
+    top:100px;
+    width: 1175px;  
+}
+.pedido{
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    left: 100px;
+    top:50px;   
+    border: #4C7766 solid 2px;
+}
+.tl3{
+    position: absolute;
+    top:40px;
+    left: 0px;
+    width: 100%;  
+}
+.descpe{
+    position: absolute;
+    width: 550px;
+    text-align: left;
+    font-size: 32px;
+    font-family: "Inika", serif;
+    left: 100px; 
+    font-weight: 400;
+
+}
+.psdes1{
+    top: 150px;
+}
+.enviar{
+    width: 300px;
+    height: 80px;
+    top: 900px; 
+    position: absolute;
+    font-size: 32px;
+}
+.confirm{
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    width: 600px;
+    height: 500px;
+    background-color: #FBF0F4;
+    border: #ED8F45 solid 5px;
+    border-radius: 50px;
+    z-index: 1002;
+}
+.subb5{
+    width: 300px;
+    height: 60px;
+    top: 350px;
+    left: 150px; 
+    font-size: 32px;
+}
+.formcnmod{
+    transition: all .3s;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 200px;/*310*/
+    left: 150px;
+    font-size: 22px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    border-radius: 20px;
+    border: none;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+span.equis{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #ED8F45;
+    border-radius: 25px;
+    cursor: pointer;
+}
+span.linea{
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    background-color: #FBF0F4;
+    border-radius: 10px;
+}
+.formcnmod:focus{
+    outline: none;
+}
+.conftx{
+    position: absolute;
+    left: 50px;
+    width: 500px;
+    top: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+}
+.nublar{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(119, 119, 119, 0.6);
+    z-index: 1001;
+}
+.empresadesc{
+    display: none;
+    background-color: #FBF0F4;
+    border: #ED8F45 solid 2px;
+    width: 50px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px; 
+    position: absolute;
+    left: 1265px;
+    top: 25px; 
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.txdescem{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px;
+
+    font-size: 22px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+}
